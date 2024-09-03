@@ -1,0 +1,147 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .footer-number li span {
+        display: block;
+    }
+
+    .call-sections {
+
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #navbarNav {
+
+        position: fixed;
+        width: 90%;
+        left: 0;
+        top: 97px;
+        background: #fff;
+        z-index: 111111;
+        margin: auto;
+        right: 0;
+    }
+
+    ul.navbar-nav {
+        gap: 50px;
+        text-align: center;
+        padding: 40px 0;
+        box-shadow: 0 0 5px #98C257;
+    }
+
+    button:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    .fixed-header {
+        box-shadow: 0 0 2px #000;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1111;
+        background: #fff;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .middle_section1 {
+        padding: 50px 0;
+    }
+
+    .find-your-time {
+
+        padding-top: 50px;
+
+    }
+
+    .call-sections {
+
+        gap: 70px;
+
+        flex-direction: column;
+    }
+
+    .social-icons {
+
+        justify-content: center;
+
+    }
+
+    .footer-bottom-menu {
+
+        margin-top: 40px;
+    }
+
+    .footer-number {
+
+        gap: 40px;
+    }
+
+    .footer-number li {
+        font-size: 16px;
+
+    }
+
+    .footer-nav li a {
+
+
+        font-size: 16px;
+
+    }
+
+    .footer-number li:after {
+
+        width: 150px;
+        height: 2px;
+
+        right: 0;
+
+        top: auto;
+        transform: translate(-50%, 50%);
+        left: 50%;
+        bottom: -50%;
+    }
+
+    ul.footer-nav {
+
+        margin: 0 0 16px;
+
+        gap: 25px;
+        justify-content: center;
+    }
+
+    .footer-number {
+
+
+        flex-direction: column;
+    }
+
+    .row.footer-copyright {
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-copyright p.email-foot {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .home-slider img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .swiper-slide::after {
+
+        width: 80%;
+
+
+    }
+}
